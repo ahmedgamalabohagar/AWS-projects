@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahmed Gamal Abohagar — CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#0f766e;--muted:#6b7280;--bg:#f8fafc}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:#0f172a;margin:0;padding:24px}
+    .container{max-width:900px;margin:24px auto;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,.08);overflow:hidden}
+    header{display:flex;gap:20px;padding:28px;background:linear-gradient(90deg,rgba(15,118,110,.06),transparent)}
+    .avatar{width:110px;height:110px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#059669);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    .head-info{flex:1}
+    h1{margin:0;font-size:22px}
+    .sub{color:var(--muted);margin-top:6px}
+    .contact{margin-top:12px;display:flex;flex-wrap:wrap;gap:10px;font-size:14px}
+    a.tag{background:#f1faf8;border:1px solid rgba(15,118,110,.08);padding:6px 10px;border-radius:8px;text-decoration:none;color:var(--accent)}
+    main{display:grid;grid-template-columns:1fr 320px;gap:28px;padding:28px}
+    section{background:transparent}
+    .section-title{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+    .pill{background:#eefbf9;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600;font-size:13px}
+    .card{padding:14px;border-radius:10px;border:1px solid #f1f5f9;background:#fff}
+    ul{margin:0;padding-left:18px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#f8fafc;border:1px solid #eef2f7;padding:6px 8px;border-radius:8px;font-size:13px;color:#0f172a}
+    footer{padding:18px 28px;background:#fcfeff;border-top:1px solid #f1f5f9;font-size:14px;color:var(--muted)}
+    @media(max-width:880px){main{grid-template-columns:1fr}header{flex-direction:row} .avatar{width:88px;height:88px}}
+  </style>
+</head>
+<body>
+  <div class="container" role="document">
+    <header>
+      <div class="avatar"><img src="Me.jpg" alt="" style="width: 100%;"></div>
+      <div class="head-info">
+        <h1>Ahmed Gamal Abohagar</h1>
+        <div class="sub">System Administrator • Red Hat &amp; AWS • Developing DevOps skills</div>
+        <div class="contact">
+          <a class="tag" href="tel:+201033223646">(+20) 1033223646</a>
+          <a class="tag" href="mailto:ahmedgamal0316@gmail.com">ahmedgamal0316@gmail.com</a>
+          <a class="tag" href="http://www.linkedin.com/in/ahmed-abohagar" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="tag" href="https://github.com/ahmedgamalabohagar" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <section class="card" aria-labelledby="profile">
+          <div class="section-title"><div class="pill">Profile</div></div>
+          <p id="profile">System Administrator with hands-on experience in Red Hat Linux and AWS Cloud. Currently developing DevOps skills to integrate system administration, automation, and cloud infrastructure management. Passionate about optimizing IT operations and improving system reliability.</p>
+        </section>
+
+        <section style="margin-top:18px" class="card" aria-labelledby="experience">
+          <div class="section-title"><div class="pill">Experience &amp; Activities</div></div>
+          <ul>
+            <li><strong>Cloud Specialist Trainee, DEPI</strong> — Completed AWS Practitioner &amp; Architect courses; built and deployed scalable AWS infrastructure; hands-on with IAM, EC2, and S3. (Certificate)</li>
+            <li style="margin-top:8px"><strong>System &amp; Network Trainee, Instant’s Training Program</strong> — Configured routers/switches and practiced troubleshooting in lab environments. (Certificate)</li>
+            <li style="margin-top:8px"><strong>Code Instructor @ 3C</strong> — Taught Scratch, Python and App Inventor to children.</li>
+            <li style="margin-top:8px"><strong>Front-End Instructor, GDG On-Campus</strong> — Delivered HTML/CSS training and guided responsive projects.</li>
+            <li style="margin-top:8px"><strong>Full-Stack .NET Trainee, ITI</strong> — Gained skills in C#, ASP.NET, HTML, CSS.</li>
+            <li style="margin-top:8px"><strong>HR Member, Google DSC</strong> — Managed communication, events, and team coordination.</li>
+          </ul>
+        </section>
+
+        <section style="margin-top:18px" class="card" aria-labelledby="education">
+          <div class="section-title"><div class="pill">Education</div></div>
+          <p id="education"><strong>B.Sc. Computer Science</strong>, Banha University, Egypt (2021–2025) — GPA: 3.37</p>
+        </section>
+
+      </div>
+
+      <aside>
+        <section class="card" aria-labelledby="skills">
+          <div class="section-title"><div class="pill">Technical Skills</div></div>
+          <div class="skills" id="skills">
+            <span class="skill">RHEL / RHCSA I &amp; II</span>
+            <span class="skill">AWS (IAM, EC2, S3)</span>
+            <span class="skill">Cisco Routing &amp; Switching</span>
+            <span class="skill">Docker</span>
+            <span class="skill">Git / GitHub</span>
+            <span class="skill">Bash Scripting</span>
+            <span class="skill">C++</span>
+            <span class="skill">Python</span>
+          </div>
+        </section>
+
+        <section style="margin-top:18px" class="card" aria-labelledby="soft">
+          <div class="section-title"><div class="pill">Soft Skills</div></div>
+          <ul id="soft" style="margin-top:6px">
+            <li>Communication</li>
+            <li>Team Collaboration</li>
+            <li>Problem-Solving</li>
+          </ul>
+        </section>
+
+        <section style="margin-top:18px" class="card" aria-labelledby="languages">
+          <div class="section-title"><div class="pill">Languages</div></div>
+          <p id="languages">Arabic (Native) • English (Good)</p>
+        </section>
+
+        <section style="margin-top:18px" class="card" aria-labelledby="links">
+          <div class="section-title"><div class="pill">Certificates &amp; Links</div></div>
+          <ul id="links" style="margin-top:6px">
+            <li><a href="https://www.credly.com/badges/1b6ada39-4a39-495f-a447-8ff0a89d9611" target="_blank" rel="noopener">Credly Badge</a></li>
+            <li><a href="https://www.credly.com/go/o37wKDiF" target="_blank" rel="noopener">Credly Profile</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1BYPobroq46EFxMbZxLRVg2vdLxjdhjRz?usp=drive_link" target="_blank" rel="noopener">Additional Documents</a></li>
+            <li><a href="https://drive.google.com/file/d/1rlFO7Hg5vO4twpZv1snQtRB8RiA6zfbn/view?usp=drive_link" target="_blank" rel="noopener">Transcript / File</a></li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      PDF source converted to a responsive single-file HTML CV. Want changes? (language, colors, add photo, export PDF, or make a React version) — tell me what to adjust.
+    </footer>
+  </div>
+</body>
+</html>
