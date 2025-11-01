@@ -1,4 +1,4 @@
-# 🗄️ Project 3: Store and Retrieve Data with AWS DynamoDB + Lambda
+# 🗄️ Store and Retrieve Data with AWS DynamoDB + Lambda
 
 ## 📘 Overview
 This project demonstrates how to build a simple **serverless web backend** using **AWS Lambda**, **API Gateway**, and **DynamoDB**.
@@ -122,3 +122,4 @@ Below are the screenshots showing each step of the project setup and execution:
 💻 Cloud & DevOps Enthusiast | AWS Cloud Practitioner Projects  
 📧 [ahmedgamal0316@gmail.com]  
 🌐 [[LinkedIn](https://www.linkedin.com/in/ahmed-abohagar/)]
+
